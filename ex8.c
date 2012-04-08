@@ -10,6 +10,10 @@ int main(int argc, char **argv)
 		'S', 'h', 'a', 'w', '\0'
 	};
 
+	areas[0] = 100;
+	name[0] = 'B';
+	full_name[1] = 'a';
+
 	// WARNING: On some systems, you may have to change the
 	// %ld in this code to a %u since it will use unsigned ints.
 	printf("The size of an int: %ld\n", sizeof(int));
