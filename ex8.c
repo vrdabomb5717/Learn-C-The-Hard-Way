@@ -13,6 +13,7 @@ int main(int argc, char **argv)
 	areas[0] = 100;
 	name[0] = 'B';
 	full_name[1] = 'a';
+	areas[1] = name[0];
 
 	// WARNING: On some systems, you may have to change the
 	// %ld in this code to a %u since it will use unsigned ints.
